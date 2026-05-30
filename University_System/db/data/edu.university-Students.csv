@@ -1,0 +1,10 @@
+ID,rollNumber,firstName,lastName,email,phone,dateOfBirth,admissionYear,currentSemester,cgpa,departmentCode,isActive
+aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,CS22001,Rohan,Kapoor,rohan@techuni.edu,9000000001,2004-01-15,2022,5,8.50,CSE,true
+bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,CS22002,Aryan,Malhotra,aryan@techuni.edu,9000000002,2004-02-10,2022,5,8.90,CSE,true
+cccccccc-cccc-cccc-cccc-cccccccccccc,EC22001,Sneha,Arora,sneha@techuni.edu,9000000003,2004-03-18,2022,5,9.10,ECE,true
+dddddddd-dddd-dddd-dddd-dddddddddddd,EC22002,Riya,Sharma,riya@techuni.edu,9000000004,2004-04-12,2022,5,7.80,ECE,true
+eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,ME22001,Vivek,Singh,vivek@techuni.edu,9000000005,2004-05-05,2022,5,8.20,ME,true
+ffffffff-ffff-ffff-ffff-ffffffffffff,ME22002,Ankit,Verma,ankit@techuni.edu,9000000006,2004-06-01,2022,5,7.50,ME,true
+12121212-1212-1212-1212-121212121212,CS23001,Meera,Gupta,meera@techuni.edu,9000000007,2005-01-20,2023,3,8.70,CSE,true
+34343434-3434-3434-3434-343434343434,EC23001,Kavya,Jain,kavya@techuni.edu,9000000008,2005-02-25,2023,3,9.00,ECE,true
+ 

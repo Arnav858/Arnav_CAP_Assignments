@@ -1,0 +1,7 @@
+ID,firstName,lastName,specialization,qualification,experience,fee,department_ID,phone,email,availableDays,isActive
+DOC001,Phil,Anderson,Cardiologist,MD,12,1200,D001,9876500001,phil@hospital.com,Mon-Fri,true
+DOC002,Josh,Williams,Radiologist,MD,8,1000,D002,9876500002,josh@hospital.com,Mon-Sat,true
+DOC003,Simon,Clark,Orthopedic Surgeon,MS,10,1500,D003,9876500003,simon@hospital.com,Tue-Sat,true
+DOC004,Michele,Fox,Gynecologist,MD,9,1300,D004,9876500004,michele@hospital.com,Mon-Fri,true
+DOC005,Kevin,Hall,Cardiologist,DM,15,1800,D001,9876500005,kevin@hospital.com,Wed-Sun,true
+DOC006,Olivia,King,Radiologist,MD,7,1100,D002,9876500006,olivia@hospital.com,Mon-Fri,true

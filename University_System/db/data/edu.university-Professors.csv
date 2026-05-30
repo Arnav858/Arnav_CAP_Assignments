@@ -1,0 +1,6 @@
+ID,firstName,lastName,email,phone,departmentCode,designation,joinDate,salary,officeRoom
+11111111-1111-1111-1111-111111111111,Rajesh,Sharma,rajesh@techuni.edu,9876543210,CSE,FullProfessor,2010-06-01,120000,101
+22222222-2222-2222-2222-222222222222,Neha,Gupta,neha@techuni.edu,9876543211,ECE,Associate,2012-08-15,95000,102
+33333333-3333-3333-3333-333333333333,Amit,Verma,amit@techuni.edu,9876543212,ME,Assistant,2018-01-10,75000,103
+44444444-4444-4444-4444-444444444444,Priya,Singh,priya@techuni.edu,9876543213,CSE,Associate,2015-07-20,90000,104
+55555555-5555-5555-5555-555555555555,Karan,Mehta,karan@techuni.edu,9876543214,ECE,Distinguished,2008-03-12,140000,105

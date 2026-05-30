@@ -1,0 +1,48 @@
+### GET all doctors filtered by specialization
+GET http://localhost:4004/odata/v4/hospital/Doctors?$filter=specialization eq 'Cardiologist'
+
+### GET appointments for a specific date
+GET http://localhost:4004/odata/v4/hospital/Appointments?$filter=appointmentDate eq 2025-07-01
+
+### POST a new patient
+POST http://localhost:4004/odata/v4/hospital/Patients
+Content-Type: application/json
+ 
+{
+  "ID": "PAT006",
+  "firstName": "John",
+  "lastName": "Walker",
+  "dateOfBirth": "2000-01-01",
+  "gender": "Male",
+  "bloodGroup": "A_POS",
+  "phone": "9876511116",
+  "email": "john@gmail.com",
+  "address": "California",
+  "emergencyContact": "9876512227",
+  "registrationDate": "2025-07-10"
+}
+
+### POST a new appointment
+POST http://localhost:4004/odata/v4/hospital/Appointments
+Content-Type: application/json
+ 
+{
+  "ID": "APP009",
+  "appointmentDate": "2025-07-10",
+  "appointmentTime": "10:00:00",
+  "status": "Scheduled",
+  "reason": "General Checkup",
+  "notes": "Regular Visit",
+  "fee": 1200
+}
+
+### GET patients filtered by blood group
+GET http://localhost:4004/odata/v4/hospital/Patients?$filter=bloodGroup eq 'O_POS'
+
+### PATCH appointment status to Completed
+PATCH http://localhost:4004/odata/v4/hospital/Appointments('APP001')
+Content-Type: application/json
+
+{
+  "status": "Completed"
+}

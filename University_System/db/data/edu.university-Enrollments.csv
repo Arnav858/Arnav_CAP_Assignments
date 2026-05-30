@@ -1,0 +1,13 @@
+studentId,courseCode,enrollmentDate,status,grade,gradePoints,attendancePercent
+aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,CS301,2025-01-10,Enrolled,,,88
+bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,CS301,2025-01-10,Enrolled,,,91
+cccccccc-cccc-cccc-cccc-cccccccccccc,EC301,2025-01-10,Enrolled,,,87
+dddddddd-dddd-dddd-dddd-dddddddddddd,EC301,2025-01-10,Enrolled,,,82
+eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,ME101,2025-01-10,Completed,A,10,95
+ffffffff-ffff-ffff-ffff-ffffffffffff,ME101,2025-01-10,Completed,B,8,89
+12121212-1212-1212-1212-121212121212,CS201,2025-01-10,Enrolled,,,85
+34343434-3434-3434-3434-343434343434,EC101,2025-01-10,Enrolled,,,84
+aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,CS201,2025-01-10,Completed,A,10,93
+bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,CS201,2025-01-10,Completed,B,8,88
+cccccccc-cccc-cccc-cccc-cccccccccccc,EC101,2025-01-10,Completed,A,10,90
+dddddddd-dddd-dddd-dddd-dddddddddddd,EC101,2025-01-10,Completed,C,6,75

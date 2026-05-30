@@ -1,0 +1,5 @@
+ID,name,floor,head,capacity,phone,isActive
+D001,Cardiology,2,Dr Phil,50,9988776655,true
+D002,Radiology,3,Dr Josh,40,9876543210,true
+D003,Orthopedics,1,Dr Simon,45,9898981212,true
+D004,Gynecology,4,Dr Michele,35,9182736450,true

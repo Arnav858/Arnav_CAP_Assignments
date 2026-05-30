@@ -1,0 +1,72 @@
+### Get all venues
+GET http://localhost:4004/odata/v4/event/Venues
+ 
+### Get all events
+GET http://localhost:4004/odata/v4/event/Events
+ 
+### Get all speakers
+GET http://localhost:4004/odata/v4/event/Speakers
+ 
+### Get all registrations
+GET http://localhost:4004/odata/v4/event/Registrations
+ 
+### Get all feedback
+GET http://localhost:4004/odata/v4/event/Feedback
+ 
+### Get a specific event
+GET http://localhost:4004/odata/v4/event/Events(aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa)
+ 
+### Filter events by status
+GET http://localhost:4004/odata/v4/event/Events?$filter=status eq 'Published'
+ 
+### Filter registrations by ticket type
+GET http://localhost:4004/odata/v4/event/Registrations?$filter=ticketType eq 'VIP'
+ 
+### Sort events by ticket price
+GET http://localhost:4004/odata/v4/event/Events?$orderby=ticketPrice desc
+ 
+### Expand venue details for events
+GET http://localhost:4004/odata/v4/event/Events?$expand=venue
+ 
+### Create a registration
+POST http://localhost:4004/odata/v4/event/Registrations
+Content-Type: application/json
+ 
+{
+  "ID": "bbbb1111-2222-3333-4444-555555555555",
+  "event_ID": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+  "attendeeName": "Test User",
+  "attendeeEmail": "testuser@example.com",
+  "attendeePhone": "9876543210",
+  "company": "SAP",
+  "ticketType": "General",
+  "registrationDate": "2025-08-01",
+  "status": "Confirmed",
+  "amountPaid": 2000,
+  "paymentId": "PAY999"
+}
+ 
+### Update event status
+PATCH http://localhost:4004/odata/v4/event/Events(aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa)
+Content-Type: application/json
+ 
+{
+  "status": "Ongoing"
+}
+ 
+### Update registration status
+PATCH http://localhost:4004/odata/v4/event/Registrations(11111111-1111-1111-1111-111111111111)
+Content-Type: application/json
+ 
+{
+  "status": "Attended"
+}
+ 
+### Delete feedback
+DELETE http://localhost:4004/odata/v4/event/Feedback(11111111-1111-1111-1111-111111111111)
+ 
+### Count events
+GET http://localhost:4004/odata/v4/event/Events/$count
+ 
+### Search events by title
+GET http://localhost:4004/odata/v4/event/Events?$filter=contains(title,'AI')

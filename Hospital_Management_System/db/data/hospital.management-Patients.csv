@@ -1,0 +1,6 @@
+ID,firstName,lastName,dateOfBirth,gender,bloodGroup,phone,email,address,emergencyContact,registrationDate
+PAT001,Tobi,Watson,2003-05-10,Male,O_POS,9876511111,tobi@gmail.com,Boston,9876512222,2025-01-10
+PAT002,Megan,Johnson,2001-08-15,Female,A_POS,9876511112,megan@gmail.com,Texas,9876512223,2025-01-11
+PAT003,Abella,Watkins,1999-03-20,Female,B_POS,9876511113,abella@gmail.com,New Jersey,9876512224,2025-01-12
+PAT004,Neha,Verma,2002-07-25,Female,AB_POS,9876511114,neha@gmail.com,Oklahoma,9876512225,2025-01-13
+PAT005,Kevin,Brar,1998-11-30,Male,O_NEG,9876511115,kevin@gmail.com,New York,9876512226,2025-01-14

@@ -1,0 +1,6 @@
+ID,name,company,phone,email,address,city,pincode,gstNumber,tier
+33333333-3333-3333-3333-333333333331,Rohit Verma,ABC Pvt Ltd,9123456780,rohit@abc.com,MG Road,Bangalore,560001,GST001,Regular
+33333333-3333-3333-3333-333333333332,Priya Gupta,XYZ Ltd,9123456781,priya@xyz.com,Anna Nagar,Chennai,600001,GST002,Premium
+33333333-3333-3333-3333-333333333333,Karan Mehta,LogiCorp,9123456782,karan@logicorp.com,MIDC,Pune,411001,GST003,Enterprise
+33333333-3333-3333-3333-333333333334,Anjali Rao,QuickTrade,9123456783,anjali@qt.com,Hitech City,Hyderabad,500081,GST004,Premium
+ 

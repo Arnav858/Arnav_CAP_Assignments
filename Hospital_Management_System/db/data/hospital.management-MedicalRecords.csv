@@ -1,0 +1,3 @@
+ID,patient_ID,doctor_ID,appointment_ID,diagnosis,prescription,testRecommended,recordDate
+MR001,PAT002,DOC002,APP002,Minor Fracture,Painkillers,X-Ray,2025-07-02
+MR002,PAT004,DOC004,APP004,Normal Pregnancy,Folic Acid,Ultrasound,2025-07-04
